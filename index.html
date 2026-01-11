@@ -1,28 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Training Website</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Basic Login Training</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Welcome to My Training Site</h1>
-        <p>GitHub Pages Practice Template</p>
-    </header>
+  <h1>Login Page (Training)</h1>
 
-    <section id="activation">
-        <h2>Activation Section</h2>
-        <input type="text" id="code" placeholder="Enter activation code">
-        <button onclick="activate()">Activate</button>
-        <p id="result"></p>
-    </section>
+  <div class="login-box">
+    <input type="text" id="username" placeholder="Username"><br>
+    <input type="password" id="password" placeholder="Password"><br>
+    <button onclick="login()">Login</button>
 
-    <footer>
-        <p>© 2026 Training Demo</p>
-    </footer>
+    <p id="result"></p>
+  </div>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
